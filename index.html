@@ -41,11 +41,11 @@
     <script>
         var hidden = document.getElementById('hidden');
         hidden.style.display = 'none';
-        // show hidden div if clicked on body 5 times 
+        // show hidden div if clicked on body 3 times 
         var clicks = 0;
         document.getElementById('app').addEventListener('click', function () {
             clicks++;
-            if (clicks == 33) {
+            if (clicks == 3) {
                 hidden.style.display = 'block';
             }
         });
